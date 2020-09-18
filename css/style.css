@@ -779,6 +779,7 @@ line-height: 22px;
 letter-spacing: 0.002em;
 
 color: #F8BC56;
+margin-bottom: 10px;
 }
 .gallery .gallery-header .gallery-title{
     font-style: normal;
@@ -790,6 +791,7 @@ color: #F8BC56;
     letter-spacing: 0.002em;
     
     color: #323232;
+    margin-bottom: 10px;
 }
 .gallery .gallery-header .gallery-desc{
     font-style: normal;
