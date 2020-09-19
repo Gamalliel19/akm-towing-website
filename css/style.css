@@ -208,6 +208,17 @@ nav ul li a:hover{
     display: flex;
 }
 
+.arrow-carousel{
+    position: absolute;
+    right: 0;
+    top: 400px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.arrow-carousel i{
+    margin: 10px;
+}
+
 /* Services Section */
 #service{
     background: #ffffff;
@@ -904,9 +915,26 @@ footer{
 
 /* mobile */
 @media only screen and (max-width: 700px) {
+    body{
+        width: 100%;
+    }
     header{
         padding: 25px 0;
         flex-direction: column;
+    }
+    .home img{
+        height: 400px;
+        width: 100%;
+    }
+    .whyus-main .whyus-main-left img{
+        height: 300px;
+        width: 100%;
+    }
+    .whyus-header .whyus-title{
+        font-size: 25px;
+    }
+    .whyus-header .whyus-desc{
+        font-size: 15px;
     }
     /* nav-toggle */
     .backdrop{
@@ -990,9 +1018,9 @@ footer{
         margin: 40px auto;
     }
     .btn-home-putih{
-        font-size: 15px;
+        font-size: 10px;
         border: 1px solid #ffffff;
-        padding: 10px 30px;
+        padding: 10px 20px;
         border-radius: 10px;
         margin-top: 20px;
         margin-right: 20px;
@@ -1000,9 +1028,9 @@ footer{
         text-decoration: none;
     }
     .btn-home-kuning{
-        font-size: 15px;
+        font-size: 10px;
         background: #F8BC56;
-        padding: 10px 30px;
+        padding: 10px 20px;
         border-radius: 10px;
         margin-top: 20px;
         margin-right: 20px;
@@ -1019,6 +1047,9 @@ footer{
         display: none;
     }
     .box-quote{
+        display: none;
+    }
+    .arrow-carousel{
         display: none;
     }
 
